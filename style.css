@@ -1,0 +1,361 @@
+
+body{
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    /*background-color: aqua;*/
+    /* vertical-align: auto; */
+}
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: 120px;
+    margin-top: 89px;
+    position: absolute;
+}
+.heroimage{
+    height: auto;
+    max-width: 100%;
+}
+.button1{
+    color: black;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    margin-left: 580px;
+    margin-top: 113px;
+     display: block;
+     width:70px;
+     background-color: white;
+     font-weight: inherit;
+    }
+.button1:hover + {
+        color: rgb(255, 170, 0);
+      }
+    
+
+.button2{
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-left: 685px;
+    text-align: center;
+    width: 112px;
+    height: 39px;
+    margin-top: -37px;
+    display: block;
+}
+.heroimage{
+    height: 600px;
+    width: 660px;
+    float: right;
+}
+/**hero content**/
+.hungry{
+    margin-top: -402px;
+    margin-left: 120px;
+    font-size: 50px;
+    color:#282c3f ;
+    font-weight: 600;
+}
+.Order{
+    margin-top: -321px;
+    margin-left: -656px;
+    font-size: 24px;
+    color: #686b76;
+    font-weight: 300;
+}
+/**search location**/
+.delivery-location{
+    height: 50px;
+    padding-left:20px;
+    padding-right: 320px;
+    display: block;
+    margin-top: -270px;
+    margin-left: 100px;
+    font-size: 14px;
+    
+}
+.location-icon{
+    margin-top: -33px;
+    margin-bottom: 10px;
+    color: #2d2f2f;
+    margin-right: 20px;
+    margin-left: 514px;
+    font-size: 0.8rem;
+}
+
+.location-icon p{
+
+    display: inline;
+    cursor: pointer;
+}
+.locate-me:hover{
+    background-color: rgb(213, 206, 206);
+    
+    }
+.find-button{
+    border: none;
+    font-size: 16px;
+    height: 54px;
+    width: 120px;
+    margin-left: 617px;
+    margin-top: -46px;
+    display: block;
+    background: #fc8019;
+    color: white;
+}
+.popular-cities{
+    font-weight: 600;
+    color: #a9abb2;
+    margin-left: 101px;
+}
+.city-name
+{
+    display:inline block;
+    color:#a9abb2 ;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+/**second container**/
+
+.second-container{
+    background-color: #2b1e16;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.minimum-orderimg{
+    height: 180px;
+    margin-right: 200px;
+}
+.minimum-order{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.minimum-restriction{
+    color: white;
+}
+.liveorder-trackingimg{
+height: 180px;
+}
+.live-order{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.know-where{
+    color: white;
+}
+.Lightning-Fastimg{
+    height: 180px;  
+}
+.Lightning-Fast{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Experience{
+    color: white; 
+}
+/**Third container**/
+.third-container{
+    background-color:white;
+    height: 550px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.restaurant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.restaurant1{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -.45px;
+    margin-bottom: 10px;
+    
+}
+.restaurant2{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: -16px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2
+}
+.googleplayimg{
+    width: 200px;
+   margin-top: 22px;
+   cursor: pointer;
+}
+.applestoreimg{
+    width: 208px;
+    height: 107px;
+    margin-left: 202px;
+    margin-top: -96px;
+    cursor: pointer;
+    
+}
+.mob-image1{
+    height: 500px;
+}
+.mob-image2{
+    height: 500px;
+}
+/**fourth footer container**/
+ .fourth-container{
+    
+    background-color: black;
+     
+
+ }
+
+ .footpannel-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 200px;
+    margin-top: 10px;  
+ }
+.com-list li{
+    color:white;
+    list-style: none;
+    line-height: 2.3;
+    font-size: 18px;
+}
+ .company{
+    color:gray;
+    margin-left: 37px;
+    cursor: pointer;
+ }
+ .contact
+ {
+    color:gray;
+    margin-left: 37px;
+    cursor: pointer;
+ }
+ .contact-list{
+    color:white;
+    list-style: none;
+    line-height: 2.3;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ .legal{
+    color:gray;
+    margin-left: 37px;
+    font-weight: 500;
+    cursor: pointer;
+ }
+ .legal-list
+ {
+    color: white;
+    list-style: none;
+    padding: -20px;
+    font-size: 18px;
+    line-height: 2.3;
+    cursor: pointer;
+}
+.googleplay2{
+    width: 200px;
+   margin-top: 22px;
+   background-color: black;
+   cursor: pointer;
+
+}
+.apple2{
+    width: 200px;
+   margin-top: 22px;
+   background-color: black;
+   cursor: pointer;
+    
+}
+.images2{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+/**foot panel2**/
+.footpanel2{
+    border-top: 0.1px solid rgb(69, 68, 68);
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+
+}
+.deliver{
+    color: gray;
+    font-size:15px ;
+    cursor: pointer;
+    
+}
+.del-ver1 li{
+    list-style: none;
+    color:white;
+    margin-right: 200px;
+    line-height:35px;
+    cursor: pointer;
+}
+
+.del-ver2{
+    list-style: none;
+    color:white;
+    margin-right: 200px;
+    line-height:35px;
+    cursor: pointer;
+
+}
+
+.del-ver3{
+    list-style: none;
+    color:white;
+    margin-right: 200px;
+    line-height:35px;
+    cursor: pointer;
+}
+
+.del-ver4{
+    list-style: none;
+    color:white;
+    margin-right: 200px;
+    line-height:35px;
+    cursor: pointer;
+}
+
+
+
